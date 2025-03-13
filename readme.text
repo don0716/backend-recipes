@@ -1,0 +1,5 @@
+STEPS TO FOLLOW.
+1. (npm init -y) in terminal
+2. Create db folder and db.connect.js file inside. Database connection will depend on the mongoUri. Your .env file will have your mongoDb database URL.
+3. Must install npm mongoose and npm dotenv in terminal.
+4. Next Make the Model.
