@@ -2,6 +2,10 @@ const express = require("express");
 const app = express();
 app.use(express.json()); //Express Syntax
 
+// running cors wil allow frontend or any external client to access My API
+const cors = require("cors");
+app.use(cors());
+
 // Get database and model in this file.
 const { initializeDatabase } = require("./db/db.connect");
 const Recipe = require("./models/recipe.models");
